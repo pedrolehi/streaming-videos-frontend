@@ -1,7 +1,7 @@
 @import "../../../../styles/colors.module.scss";
 
 .sectionTitle {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-weight: 800;
 	text-align: center;
 	margin: 50px 0px 64px 0px;
@@ -19,18 +19,23 @@
 	transition: 0.5s;
 	.cardTitle {
 		transition: 0.5s;
+		font-size: 1.25;
 		font-weight: 800;
 		margin-bottom: 16px;
 	}
 	.cardContent {
-		font-size: 0.9rem;
+		transition: 0.5s;
+		font-size: 1rem;
 		color: $secondaryGray;
 	}
 	&:hover {
 		transform: scale(1.03);
 		.cardTitle {
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			margin-left: 8px;
+		}
+		.cardContent {
+			font-size: 1.02rem;
 		}
 	}
 }
