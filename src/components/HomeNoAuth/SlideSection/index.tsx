@@ -17,13 +17,13 @@ const SlideSection = ({ newestCourses }: props) => {
         <Row className="d-flex justify-content-center">
           <SlideComponent course={newestCourses} />
         </Row>
-        <Row className="text-center">
-          <Link href="/register" className={styles.linkSize}>
+        <div className="d-flex justify-content-center">
+          <Link href="/register">
             <Button outline className={styles.slideSectionBtn}>
               Cadastre-se agora!
             </Button>
           </Link>
-        </Row>
+        </div>
       </Container>
     </>
   );

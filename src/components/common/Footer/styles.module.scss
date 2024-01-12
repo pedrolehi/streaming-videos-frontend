@@ -1,0 +1,48 @@
+@import "../../../../styles/colors.module.scss";
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 26px 0px;
+}
+
+.footerLogo {
+	max-width: 32px;
+}
+
+.footerLink {
+	text-decoration: none;
+	color: $secondaryGray;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+	gap: 4px;
+	&:hover {
+		color: $lightGray;
+		transform: scale(1.03);
+	}
+}
+
+.author {
+	color: $secondaryGray;
+	text-align: center;
+}
+
+@media (max-width: 575px) {
+	.footer {
+		justify-content: center;
+		flex-direction: column;
+		gap: 8px;
+		padding: 26px 16px;
+	}
+}
+
+@media (max-width: 354px) {
+	.footer {
+		justify-content: center;
+	}
+}
