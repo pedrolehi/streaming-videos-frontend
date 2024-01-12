@@ -11,13 +11,13 @@ const PresentationSection = () => {
             md
             className="d-flex flex-column justify-content-center align-items-start"
           >
-            <p className={styles.subtitle}>ACESSO ILIMITADO</p>
+            {/* <p className={styles.subtitle}>ACESSO ILIMITADO</p> */}
             <p className={styles.title}>
-              Tenha acesso aos melhores videos dos melhores criadores.
+              Tenha acesso aos melhores cursos dos melhores criadores!
             </p>
             <p className={styles.description}>
-              Assista de onde estiver, a qualquer momento e continue adquirindo
-              conhecimento!
+              Assine hoje e tenha acesso na hora aos melhores cursos dos
+              melhores produtores.
             </p>
             <Link href="/register" className={styles.linkCta}>
               {" "}

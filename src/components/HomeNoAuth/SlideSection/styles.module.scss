@@ -1,0 +1,23 @@
+@import "../../../../styles/colors.module.scss";
+
+.sectionTitle {
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+.linkSize {
+	margin: 0 auto;
+}
+
+.slideSectionBtn {
+	font-size: 1.25rem;
+	color: $secondaryGray;
+	border-color: $secondaryGray;
+	background-color: transparent;
+	transition: 0.5s;
+	&:hover {
+		font-size: 1.3rem;
+		transform: scale(1.02);
+		border-color: $primaryRed;
+		background-color: transparent;
+	}
+}
