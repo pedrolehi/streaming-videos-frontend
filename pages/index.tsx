@@ -34,7 +34,7 @@ const HomeNoAuth = ({ course }: IndexPageProps) => {
   return (
     <>
       <Head>
-        <title>Pedroflix</title>
+        <title>Pedroflix - Home</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
         <meta property="og:title" content="Pedroflix" key="title" />
         <meta

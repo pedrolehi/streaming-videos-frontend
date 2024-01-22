@@ -1,0 +1,39 @@
+@import "../../../styles/colors.module.scss";
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.headerContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 16px 10px;
+}
+
+.headerLogo {
+	width: 180px;
+}
+
+.headerBtn {
+	margin: 0px 5px;
+	border-color: transparent;
+	color: $lightGray;
+
+	&:hover {
+		border-color: $primaryRed;
+		color: $secondaryGray;
+		background-color: transparent;
+	}
+}
+
+@media (max-width: 421px) {
+	.headerContainer {
+		justify-content: center;
+	}
+	.headerBtn {
+		margin: 16px 10px;
+		border-color: $secondaryGray;
+		font-size: 1rem;
+	}
+}
