@@ -16,8 +16,10 @@ const PresentationSection = () => {
               Tenha acesso aos melhores cursos dos melhores criadores!
             </p>
             <p className={styles.description}>
-              Assine hoje e tenha acesso na hora aos melhores cursos dos
-              melhores produtores.
+              "Este projeto tem como inspiração um streaming de videos como a
+              Netflix juntamente com uma plataforma de cursos! Juntando minhas
+              duas paixões, Educação e Tecnologia!" -{" "}
+              <strong>Pedro Muniz</strong>
             </p>
             <Link href="/register" className={styles.linkCta}>
               {" "}
